@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #1c2b4a;
+    color: #f3ecdd;
+}
+.classe1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+.image1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+nav {
+    background-color: black;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    color: #1c2b4a;
+    background-color: #e8c99b;
+    padding: 20px;
+    border-radius: 20%;
+    display: inline-block;
+    text-decoration: none;
+}
+.contenu {
+    max-width: 750px;
+}.projet-carte {
+    background-color: #2e436b;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    max-width: 750px;
+}
+.logos {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
